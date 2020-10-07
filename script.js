@@ -22,7 +22,9 @@ function valueInput(data){
 }
 
 function backSpace(){
-   calc.screenValue.value = calc.screenValue.value.slice(0, -1); 
+    let str = calc.screenValue;
+    str = str.slice(0, str.length - 1);
+    calc.screenValue = str;
 }
 
 
