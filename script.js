@@ -22,6 +22,9 @@ function valueInput(data){
 }
 
 function backSpace(){
+    if(calc.screenValue === '0'){
+        return;
+    }
     let str = calc.screenValue;
     str = str.slice(0, str.length - 1);
     calc.screenValue = str;
