@@ -44,7 +44,11 @@ button:hover{
 }
 
 .del{
-    background-color: #e996e9;
+    background-color: #7fffd4;
+}
+
+.operator{
+    background-color:#7fffd4;
 }
 .equal-sign{
     width: 100%;
