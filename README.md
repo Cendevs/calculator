@@ -1,8 +1,8 @@
 The calculator app contains functions for all of the basic math operators typically find on simple as follows;
-**add**
-**subtract**
-**multiply**
-**divide**
+**add**,
+**subtract**,
+**multiply**,
+**divide**,
 
 Users are able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, 12 + 7 - 5 * 3 = yields 42.  Note that calculator does not evaluate more than a single pair of numbers at a time. If a number is entered, then an operator and another number that calculation is displayed if your next input is an operator. The result of the calculation is used as the first number in a new calculation operation.
 
